@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>cat</title>
+    <style>
+        .cat {
+            width: 200px;
+            height: 200px;
+            box-sizing: border-box;
+            border: 4px black solid;
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 class="log">cat</h1>
+    <img class="cat" src="cat.webp">
+</body>
+
+</html># html-exercise
