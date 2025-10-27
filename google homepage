@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>n</title>
+        <link rel="stylesheet" href="hi.css">
+
+
+        
+    </head>
+    <body>
+        
+<img class="google" src="google.jpg">
+<input class="search bar" placeholder="Search Google or type a URl">
+
+    </body>
+</html>
+
+
+css code :
+.google {
+    width: 150px;
+    height:150px;
+    display: block;
+    margin: auto;
+}
+.search.bar {
+    width:400px;
+    margin: 19px;
+    border-radius: 20px;
+    padding: 8px 9px;
+    display: block;
+    
+    
+}
