@@ -1,0 +1,45 @@
+CSS : 
+.p1,.p2{
+    font-size: 16px;
+    width: 95px;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: grey 1px solid;
+    
+}
+.p3{
+    font-size: 15px;
+    width: 223px;
+    padding: 8px 12px; 
+    display: block;
+    margin-top: 7px;
+    border: grey 1px solid;
+    border-radius: 5px;
+}
+.b{
+    background-color: rgb(52, 108, 192);
+    color: white;
+    width: 249px;
+    font-size: 15px;
+    padding: 8px 12px;
+    margin-top: 7px;
+    border-radius: 5px;
+    border: gray 1px solid;
+}
+
+
+HTML :
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>fill form :</title>
+        <link rel="stylesheet" href="hi.css">
+    </head>
+    <body>
+       <input class="p1" type="text" placeholder="First name">
+       <input class="p2" type="text" placeholder="Last name">
+       <input class="p3" type="text" placeholder="Email">
+        <button class="b">Sign up</button>
+    </body>
+</html>
