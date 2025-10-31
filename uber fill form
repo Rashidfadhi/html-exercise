@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>fill form :</title>
+        <link rel="stylesheet" href="hi.css">
+
+    </head>
+    <body>
+        <h1 class="h1" >Request a ride now</h1>
+       <input class="p1" type="text" placeholder="Enter pickup location">
+       <input class="p2" type="text" placeholder="Enter destination">
+       <button class="a">Request now</button>
+        <button class="b">Schedule for later</button>
+    </body>
+</html>
+
+CSS : 
+.h1{
+    font-size: 35px;
+    font-family: Arial;
+}
+.p1, .p2{
+   
+   font-size: 12px;
+    display: block;
+    padding: 10px 12px;
+    margin-top: 8px;
+    width: 330px;
+    background-color: rgb(231, 231, 231);
+    border: lightgray 1px solid;
+}
+.a{
+    font-size: 14px;
+    padding: 6px 6px;
+    margin-top: 22px;
+    display: inline-block;
+    margin-right: 15px;
+    background-color: black;
+    color: rgb(207, 207, 207);
+    border: lightgrey 1px solid;
+    
+}
+.b{
+    font-size: 14px;
+    padding: 6px 6px;
+    margin-top: 22px;
+    display: inline-block;
+    margin-right: 15px;
+    border: lightgrey 1px solid;
+   
+    
+    
+}
