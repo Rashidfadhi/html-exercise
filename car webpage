@@ -1,0 +1,86 @@
+HTML : 
+
+     <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Twitter text box</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <div class="border">
+    <img class="smallcat" src="audi.jpg">
+    <p1 class="oliver">Audi RS</p1>
+    <p2 class="two">V8 BITURBO</p2>
+    <button class="tweetbtn">click to buy</button>
+    </div>
+
+      <div class="border">
+    <img class="smallcat" src="lambo.jpg">
+    <p1 class="oliver">Lamborghini</p1>
+    <p2 class="two">V8 Twin turbo</p2>
+    <button class="tweetbtn">click to buy</button>
+    </div>
+
+        
+    
+    <div class="border">
+    <img class="smallcat" src="bens.jpg">
+    <p1 class="oliver">BENZ</p1>
+    <p2 class="two">ZLR V12</p2>
+    <button class="tweetbtn">click to buy</button>
+    </div>
+
+</body>
+</html>
+
+
+
+     CSS :    
+               .smallcat{
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+}
+.oliver{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 14px;
+    margin-top: 10px;
+    display: block;
+    
+
+}
+.two{
+    margin-left: 14px;
+    font-size: 10px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 0px;
+    color: #868686;
+
+}
+.tweetbtn{
+    font-size: 14px;
+    color: white;
+    background-color: rgb(55, 102, 231);
+    margin-top: 2px;
+    padding: 10px 12px;
+    margin-left: 24px;
+    border-radius: 4px;
+    border: rgb(110, 110, 110) solid 1px;
+    box-shadow: grey 1px 2px 3px;
+}
+ 
+
+.border{
+    border: rgb(189, 188, 188) 1px solid;
+    width: 150px;
+    height: 250px;
+    border-radius: 2px;
+    box-shadow: rgb(100, 100, 100) 0px 1px 5px;
+    display: inline-block;
+    margin: 5px;
+}
+
+               
