@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>DIV</title>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+        <style>
+            p{
+                font-family: 'roboto';
+                
+            }
+            .challenge-exercise{
+                display: inline-block;
+                margin: 4px;
+                margin-top: 14px;
+            width: 222px;
+            height: 310px;
+            border: lightgray 1px solid;
+            box-shadow: 1px 1px 4px;
+        }
+        .profile-picture{
+            width: 30px;
+            border-radius: 30px;
+        }
+       
+        .cat-picture{
+            width: 220px;
+            height: 180px;
+            border: lightgray 1px solid;
+            box-shadow: 1px 1px 2px;
+            
+        }
+        .second-line{
+            display: inline-block;
+            padding-left: 5px;
+            margin: top;
+            vertical-align: middle;
+        }
+        
+
+        
+        .main-paragraph{
+            font-size: 22px;
+            line-height: 0px;
+            vertical-align: top;
+            padding-left: 10px;
+            font-weight: 600;
+            text-shadow: 1px 1px 2px;
+        }
+        .side-heading{
+            font-size: 16px;
+            vertical-align: middle;
+            margin-top: 0px;
+            display: inline-block;
+            color: grey;
+        }
+        .blue-button{
+            background-color: rgb(25, 151, 235);
+            color: whitesmoke;
+            padding: 5px 5px;
+            margin-left: 20px;
+            border-radius: 3px;
+            border: grey;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="challenge-exercise">
+        <div ><img class="cat-picture" src="intro-to-html/pictures/bens.jpg"></div>
+        <div>
+            <p class="main-paragraph">Benz</p>
+            <div class="second-line"><p class="side-heading"><img class="profile-picture" src="intro-to-html/pictures/profile.jpg"> 3 mutual friends</p></div>
+            </div>
+            <div><button class="blue-button">ADD FRIEND</button></div>
+        </div>
+        </div>
+
+           <div class="challenge-exercise">
+        <div ><img class="cat-picture" src="intro-to-html/pictures/bens.jpg"></div>
+        <div>
+            <p class="main-paragraph">Benz</p>
+            <div class="second-line"><p class="side-heading"><img class="profile-picture" src="intro-to-html/pictures/profile.jpg"> 3 mutual friends</p></div>
+            </div>
+            <div><button class="blue-button">ADD FRIEND</button></div>
+        </div>
+        </div>
+
+           <div class="challenge-exercise">
+        <div ><img class="cat-picture" src="intro-to-html/pictures/bens.jpg"></div>
+        <div>
+            <p class="main-paragraph">Benz</p>
+            <div class="second-line"><p class="side-heading"><img class="profile-picture" src="intro-to-html/pictures/profile.jpg"> 3 mutual friends</p></div>
+            </div>
+            <div><button class="blue-button">ADD FRIEND</button></div>
+        </div>
+        </div>
+
+    </body>
+</html>
