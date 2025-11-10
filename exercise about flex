@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox practice</title>
+        <style>
+          div
+          {
+            font-family: Arial, Helvetica, sans-serif;
+          }
+          .main-row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border-width: 1px;
+            border-style: solid;
+            height: 100px;
+            border-color: transparent;
+           
+          }
+          .picture{
+            width: 80px;
+            height: 80px;
+            border-width: 1px;
+            border-radius: 60px;
+            border-style: solid;
+            border-color: black;
+            margin-left: 10px;
+          }
+          .first{
+            margin-right: 170px;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 5px;
+            
+
+          }
+          .second{
+            font-size: 20px;
+            line-height: 5px;
+          }
+          .third{
+            color: gray;
+            line-height: 5px;
+          }
+          .button{
+            background-color: rgb(41, 112, 206);
+            color: white;
+            margin-right: 15px;
+            padding: 12px 12px;
+            width: 120px;
+            border: none;
+            font-size: 28px;
+            border-radius: 10px;
+          }
+        </style>
+     <head>
+    <body>
+    <div class="main-row">
+      
+      <img src="/intro-to-html/pictures/cat.webp" class="picture">
+        <div>
+        <p class="first">Oliver</p>
+        <p class="second">the cat</p>
+        <p class="third">popular</p>
+      </div>
+      <button class="button">Follow</button>
+    </div>
+    
+    <div class="main-row">
+      
+      <img src="/intro-to-html/pictures/cat.webp" class="picture">
+        <div>
+        <p class="first">Oliver</p>
+        <p class="second">the cat</p>
+        <p class="third">popular</p>
+      </div>
+      <button class="button">Follow</button>
+    </div>
+
+    <div class="main-row">
+      
+      <img src="/intro-to-html/pictures/cat.webp" class="picture">
+        <div>
+        <p class="first">Oliver</p>
+        <p class="second">the cat</p>
+        <p class="third">popular</p>
+      </div>
+      <button class="button">Follow</button>
+    </div>
+        
+    </body>
+</html>
