@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            .shirt{
+                width: 220px;
+                height: 300px;
+                margin-top: 20px;
+                margin-left: 10px;
+                padding-top: 40px;
+
+            }
+            .shirt-absolute{
+                position: absolute;
+                bottom: 300px;
+                right: 50.2%;
+                background-color: rgb(5, 5, 26);
+                color: white;
+                font-size: 15px;
+                padding: 4px 4px 4px 4px;
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            .absolute{
+                position: relative;
+            }
+            .absolute-tag{
+                position: absolute;
+                background-color: rgba(255, 255, 255, 0.7);
+                margin-left: 10px;
+                width: 220px;
+                bottom: 0px;
+                top: 250px;
+
+            }
+            .button-tag{
+                position: absolute;
+                padding: 4px 6px 4px 6px;
+                background-color: rgb(247, 247, 247);
+                border-color: rgb(129, 129, 129);
+                border-style: solid;
+                border-width: 1.6px;
+                font-family: Arial, Helvetica, sans-serif;
+                bottom: 50px;
+                left:80px;
+                
+            }
+        </style>
+    </head>
+   <body style="padding-bottom: 1000px;">
+    <div class="main-tag">
+        <div class="sub-tag">
+            <div class="absolute">
+                <img src="/intro-to-html/pictures/shirt.jpg.jpg" class="shirt">
+              
+                <div class="absolute-tag"></div>
+                 <button class="button-tag">Add to cart</button>
+           </div>
+           <div class="shirt-absolute">20% OFF</div> 
+           
+        </div>
+    </div>
+   </body>
+</html>
