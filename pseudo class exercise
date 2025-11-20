@@ -1,0 +1,220 @@
+<html lang="en">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width,initial scale=1">
+  <head>
+    <style>
+     /*
+     
+    */
+    p {
+      font-family: 'roboto';
+    }
+    body{
+      padding-bottom: 200px;
+      padding-left: 20px;
+    }
+
+        .video-info{
+       
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .video-author{
+        font-size: 12px;
+        color: rgb(97, 97, 97);
+        margin-bottom: 5px;
+    }
+    .video-stats{
+        font-size: 12px;
+        color: rgb(97, 97, 97);
+    }
+     .profile-picture{
+        width: 36px;
+        border-radius: 30px;}
+
+ .thumbnail {
+    width: 300px;
+    height: 200px;
+ } 
+    .thumbnail-row{
+        margin-bottom:8px;
+        position: relative;
+        cursor: pointer;
+        background-color: bisque;
+    }
+    .video-time{
+       position: absolute;
+       background-color: black;
+       color: white;
+       bottom: 8px;
+       right: 5px;
+       font-family: 'roboto';
+       font-size: 12px;
+       padding: 4px 4px 4px;
+    }
+      .video-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      row-gap: 40px;
+      column-gap: 16px;
+      
+   }
+
+       .video-info-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        margin-top: 0px;
+       
+    }
+  
+     
+    @media screen and (min-width:950px) and (max-width:1360px){
+      .video-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      }
+    }
+    .video-title{
+        margin-top: 0px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    
+  
+   
+       
+      
+     .channel-picture{
+      position: relative;
+      display: inline-block;
+      height: 1px;
+      
+   
+     } 
+  
+    
+      .tool-tip{
+      position: absolute;
+      left: 20px;
+      background-color: rgb(255, 255, 255);
+      width: 180px;
+      height: 50px;
+      padding: 10px 10px;
+      transition: transform 1.98s ease-out;
+      overflow: hidden;
+      border-radius: 3px;
+      border: 1px solid rgb(236, 236, 236);
+      box-shadow: 0px 0px 1px inset;
+      pointer-events: none;  
+      visibility: hidden;
+      
+    }
+    .inside-elements{
+      display: flex;
+      flex-direction: row;
+      
+      align-items: center;
+      
+    }
+    .insideprofile{
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+    }
+    .row1{
+      white-space: nowrap;
+      font-weight: bold;
+      font-size: 15px;
+      font-family:'roboto' ;
+      margin-left: 5px;
+      
+    }
+    .row2{
+      font-size: 15px;
+      font-family:'roboto';
+        margin-left: 5px;
+      margin-top: 2px;
+      color: rgb(109, 109, 109);
+    }
+   .channel-picture:hover .tool-tip{
+      visibility: visible;
+      transform: scale(1.1);
+      pointer-events: none; 
+    }
+    
+    
+   </style>
+  </head>
+  <body >
+    
+     <div class="video-grid">
+    <div class="video-preview">
+    <div class="thumbnail-row">
+    <div class="video-time">
+            14:00
+        </div>
+        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">   <img class="thumbnail" src="/intro-to-html/pictures/thumbnail-1.webp"> </a>
+    </div>
+    <div>
+      
+    </div>
+    
+    <div class="video-info-grid">
+        <div class="channel-picture">  
+        <img class="profile-picture"   src="/intro-to-html/pictures/profile.jpg" >
+        <div class="tool-tip">
+        <div class="inside-elements">
+        <img src="/intro-to-html/pictures/profile.jpg" class="insideprofile">
+        <div class="rows">              
+        <div class="row1"> Marques Brownlee</div>
+        <div class="row2">15M subscribers</div>
+        </div>
+        </div>
+          
+          </div>
+        </div>
+        <div class="video-info">  <p class="video-title">Talking tech with sundar pichai</p>
+        <p class="video-author">Marques Brownlee</p>
+        <p class="video-stats">3 .4M views &#183; 6 months ago</p>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="video-preview">
+        <div class="thumbnail-row">
+        <div class="video-time">
+            14:00
+        </div>
+        <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk"><img class="thumbnail" src="/intro-to-html/pictures/markiplier.jpg"> </a>
+    </div>
+    <div>
+      
+    </div>
+    <div class="video-info-grid">
+        <div class="channel-picture">
+        <img class="profile-picture" src="/intro-to-html/pictures/channel-2.profile.jpg" >
+        <div class="tool-tip">
+        <div class="inside-elements">
+        <img src="/intro-to-html/pictures/channel-2.profile.jpg" class="insideprofile">
+        <div class="rows">              
+        <div class="row1"> Markiplier</div>
+        <div class="row2">55M subscribers</div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="video-info">  <p class="video-title">Try not to laugh challenge</p>
+        <p class="video-author">Markiplier</p>
+        <p class="video-stats">3 .4M views &#183; 4 years ago</p>
+        </div>
+        </div>
+        </div>
+
+
+  </body>
+</html>
